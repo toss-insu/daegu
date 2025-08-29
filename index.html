@@ -3,124 +3,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>토스인슈어런스채용공고_대구</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9V4BTDT2MD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-9V4BTDT2MD');
-</script>
+  <!-- GA4 (Daegu Stream) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V4BTDT2MD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9V4BTDT2MD');
+  </script>
+
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background: #fff;
-    }
+    body { margin:0; padding:0; font-family:sans-serif; background:#fff; }
+    .container { max-width:1000px; margin:0 auto; padding:0 16px; }
+    .container img { width:100%; height:auto; display:block; margin-bottom:0; }
 
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
+    .video-wrapper { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:0; }
+    .video-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
 
-    .container img {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 0px;
+    .floating-apply { position:fixed; bottom:20px; left:50%; transform:translateX(-50%); z-index:999; }
+    .floating-apply a {
+      background:#0052ff; color:#fff; padding:1em 1.5em; border-radius:999px;
+      font-weight:bold; font-size:24px; text-decoration:none;
+      box-shadow:0 6px 16px rgba(0,0,0,.2); text-align:center; max-width:600px;
+      display:flex; justify-content:center; margin:auto; min-width:250px;
     }
+    @media (max-width:767px){ .floating-apply a { font-size:15px; } }
 
-    /* 유튜브 영상 반응형 처리 */
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 비율 */
-      height: 0;
-      overflow: hidden;
-      margin-bottom: 0px;
-    }
-
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-
-     /* 하단 중앙 고정 버튼 */     
-    .floating-apply {       
-      position: fixed;       
-      bottom: 20px;       
-      left: 50%;       
-      transform: translateX(-50%);       
-      z-index: 999;     
-    }          
-    .floating-apply a {       
-      background: #0052ff;       
-      color: white;       
-      padding: 1em 1.5em;       
-      border-radius: 999px;       
-      font-weight: bold;       
-      font-size: 24px;       
-      text-decoration: none;       
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);       
-      text-align: center;       
-      max-width: 600px;       
-      display: flex;       
-      justify-content: center;       
-      margin: auto;     
-      min-width: 250px;
-    }
-    @media (max-width: 767px) {
-      .floating-apply a {
-        font-size: 15px;
-      }
-    }
-        
-    /* 전체 카카오톡 고정 블록 */
-    .kakao-wrapper {
-      position: fixed;
-      bottom: 100px;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      z-index: 999;
-    }
-    
-    /* 말풍선 텍스트 스타일 */
+    .kakao-wrapper { position:fixed; bottom:100px; right:20px; display:flex; flex-direction:column; align-items:center; z-index:999; }
     .kakao-label {
-      background-color: #fee500;
-      color: #000;
-      font-size: 13px;
-      font-weight: bold;
-      padding: 6px 12px;
-      border-radius: 999px;
-      margin-bottom: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      white-space: nowrap;
+      background:#fee500; color:#000; font-size:13px; font-weight:bold; padding:6px 12px;
+      border-radius:999px; margin-bottom:8px; box-shadow:0 4px 12px rgba(0,0,0,.15); white-space:nowrap;
     }
-    
-    /* 아이콘 버튼 */
-    .kakao-btn {
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      background: #fee500;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-    }
-    
-    .kakao-btn img {
-      width: 28px;
-      height: 28px;
-    }
+    .kakao-btn { width:56px; height:56px; border-radius:50%; background:#fee500; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 16px rgba(0,0,0,.2); }
+    .kakao-btn img { width:28px; height:28px; }
   </style>
 </head>
 <body>
@@ -128,7 +44,7 @@
     <img src="./img/toss_1.png" alt="toss_1">
 
     <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/E6Z8VTHDNRg" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/E6Z8VTHDNRg" allowfullscreen></iframe>
     </div>
 
     <img src="/daegu/img/toss_2.jpg" alt="toss_2">
@@ -137,9 +53,8 @@
     <img src="/daegu/img/toss_5.png" alt="toss_5">
     <img src="/daegu/img/toss_6.gif" alt="toss_6">
 
-
     <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/2Csv_gxtpFA" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/2Csv_gxtpFA" allowfullscreen></iframe>
     </div>
 
     <img src="/daegu/img/toss_7.gif" alt="toss_7">
@@ -151,19 +66,51 @@
     <img src="/daegu/img/toss_13_daegu.png" alt="toss_13_daegu">
     <img style="margin-bottom:50px;" src="/daegu/img/toss_2.jpg" alt="toss_2">
   </div>
+
   <!-- 하단 중앙: 지원하기 버튼 -->
   <div class="floating-apply">
-    <a href="https://toss.im/career/job-detail?job_id=5316041003" target="_blank">대구 직영 1지점 입사지원서 작성→</a>
+    <a href="https://toss.im/career/job-detail?job_id=5316041003"
+       target="_blank" rel="noopener noreferrer" id="applyBtn_daegu">
+      대구 직영 1지점 입사지원서 작성 →
+    </a>
   </div>
   
   <!-- 우측 하단: 카카오톡 버튼 -->
   <div class="kakao-wrapper">
     <div class="kakao-label">채용 문의하기</div>
-    <a href="https://pf.kakao.com/_rLxhhn/chat" target="_blank" class="kakao-btn" title="카카오톡 채팅 열기">
+    <a href="https://pf.kakao.com/_rLxhhn/chat"
+       target="_blank" rel="noopener noreferrer"
+       class="kakao-btn" title="카카오톡 채팅 열기" id="kakaoBtn_daegu">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/KakaoTalk_logo.svg/1024px-KakaoTalk_logo.svg.png" alt="KakaoTalk" />
     </a>
   </div>
 
-  <!-- GA4 버튼 클릭 이벤트 --> <script> document.getElementById('applyBtn').addEventListener('click', () => { gtag('event', 'button_click', { button_id: 'applyBtn', button_text: '입사지원 버튼', location: window.location.pathname }); }); document.getElementById('kakaoBtn').addEventListener('click', () => { gtag('event', 'button_click', { button_id: 'kakaoBtn', button_text: '카카오톡 문의 버튼', location: window.location.pathname }); }); </script>
+  <!-- GA4 버튼 클릭 이벤트 -->
+  <script>
+    const applyDaegu = document.getElementById('applyBtn_daegu');
+    const kakaoDaegu = document.getElementById('kakaoBtn_daegu');
+
+    if (applyDaegu) {
+      applyDaegu.addEventListener('click', () => {
+        gtag('event', 'button_click', {
+          button_id: 'applyBtn_daegu',
+          button_text: '대구 입사지원 버튼',
+          location: window.location.pathname,
+          transport_type: 'beacon'
+        });
+      });
+    }
+
+    if (kakaoDaegu) {
+      kakaoDaegu.addEventListener('click', () => {
+        gtag('event', 'button_click', {
+          button_id: 'kakaoBtn_daegu',
+          button_text: '대구 카카오톡 문의 버튼',
+          location: window.location.pathname,
+          transport_type: 'beacon'
+        });
+      });
+    }
+  </script>
 </body>
 </html>
